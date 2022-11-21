@@ -16,7 +16,6 @@ import lombok.ToString;
 public class Coupon {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Getter
     private Long id;
     private String name;
