@@ -1,6 +1,9 @@
 package com.example.javaconcurrency;
 
-class SharedExclusiveLockExample {
+/**
+ * 동시성을 보장하는 데이터셋
+ */
+class ConcurrentDataSet {
     private final SharedExclusiveLock lock = new SharedExclusiveLock();
     private int sharedResource = 0;
 
